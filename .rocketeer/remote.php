@@ -62,6 +62,7 @@ return [
             'app/database/production.sqlite',
             'storage',
             'public',
+			'releases',
         ],
 
         // Here you can configure what actions will be executed to set
