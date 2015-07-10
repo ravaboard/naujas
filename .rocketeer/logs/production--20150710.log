@@ -1,15 +1,15 @@
-20150710131411
 20150710131625
 20150710132342
 20150710132549
 20150710132913
-$ git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133306" --branch="master" --depth="1"
-git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133306" --branch="master" --depth="1"
-Cloning into '/var/www/laravel/releases/20150710133306'...
+20150710133306
+$ git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133512" --branch="master" --depth="1"
+git clone "https://ravaboard:Gembird20@github.com/ravaboard/naujas.git" "/var/www/laravel/releases/20150710133512" --branch="master" --depth="1"
+Cloning into '/var/www/laravel/releases/20150710133512'...
 /usr/local/bin/composer
-$ cd /var/www/laravel/releases/20150710133306
+$ cd /var/www/laravel/releases/20150710133512
 $ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
-cd /var/www/laravel/releases/20150710133306
+cd /var/www/laravel/releases/20150710133512
 /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
 Warning: This development build of composer is over 60 days old. It is recommended to update it by running "/usr/local/bin/composer self-update" to get the latest version.
 Loading composer repositories with package information
@@ -140,78 +140,78 @@ Installing dependencies from lock file
 Generating autoload files
 Generating optimized class loader
 Compiling common classes
-$ cd /var/www/laravel/releases/20150710133306
-$ chmod -R 755 /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-$ chmod -R g+s /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-$ chown -R www-data:www-data /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-cd /var/www/laravel/releases/20150710133306
-chmod -R 755 /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-chmod -R g+s /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-chown -R www-data:www-data /var/www/laravel/releases/20150710133306/app/database/production.sqlite
-chmod: cannot access ‘/var/www/laravel/releases/20150710133306/app/database/production.sqlite’: No such file or directory
-$ cd /var/www/laravel/releases/20150710133306
-$ chmod -R 755 /var/www/laravel/releases/20150710133306/storage
-$ chmod -R g+s /var/www/laravel/releases/20150710133306/storage
-$ chown -R www-data:www-data /var/www/laravel/releases/20150710133306/storage
-cd /var/www/laravel/releases/20150710133306
-chmod -R 755 /var/www/laravel/releases/20150710133306/storage
-chmod -R g+s /var/www/laravel/releases/20150710133306/storage
-chown -R www-data:www-data /var/www/laravel/releases/20150710133306/storage
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/sessions/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/sessions’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/cache/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/cache’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/views/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/views’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/framework’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/app/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/app’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/logs/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage/logs’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/storage’: Operation not permitted
-$ cd /var/www/laravel/releases/20150710133306
-$ chmod -R 755 /var/www/laravel/releases/20150710133306/public
-$ chmod -R g+s /var/www/laravel/releases/20150710133306/public
-$ chown -R www-data:www-data /var/www/laravel/releases/20150710133306/public
-cd /var/www/laravel/releases/20150710133306
-chmod -R 755 /var/www/laravel/releases/20150710133306/public
-chmod -R g+s /var/www/laravel/releases/20150710133306/public
-chown -R www-data:www-data /var/www/laravel/releases/20150710133306/public
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/public/robots.txt’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/public/index.php’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/public/favicon.ico’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/public/.htaccess’: Operation not permitted
-chown: changing ownership of ‘/var/www/laravel/releases/20150710133306/public’: Operation not permitted
-$ cd /var/www/laravel/releases/20150710133306
-$ chmod -R 755 /var/www/laravel/releases/20150710133306/releases
-$ chmod -R g+s /var/www/laravel/releases/20150710133306/releases
-$ chown -R www-data:www-data /var/www/laravel/releases/20150710133306/releases
-cd /var/www/laravel/releases/20150710133306
-chmod -R 755 /var/www/laravel/releases/20150710133306/releases
-chmod -R g+s /var/www/laravel/releases/20150710133306/releases
-chown -R www-data:www-data /var/www/laravel/releases/20150710133306/releases
-chmod: cannot access ‘/var/www/laravel/releases/20150710133306/releases’: No such file or directory
-$ rm -rf /var/www/laravel/releases/20150710133306/storage/logs
-rm -rf /var/www/laravel/releases/20150710133306/storage/logs
+$ cd /var/www/laravel/releases/20150710133512
+$ chmod -R 755 /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+$ chmod -R g+s /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+cd /var/www/laravel/releases/20150710133512
+chmod -R 755 /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+chmod -R g+s /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+chown -R www-data:www-data /var/www/laravel/releases/20150710133512/app/database/production.sqlite
+chmod: cannot access ‘/var/www/laravel/releases/20150710133512/app/database/production.sqlite’: No such file or directory
+$ cd /var/www/laravel/releases/20150710133512
+$ chmod -R 755 /var/www/laravel/releases/20150710133512/storage
+$ chmod -R g+s /var/www/laravel/releases/20150710133512/storage
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133512/storage
+cd /var/www/laravel/releases/20150710133512
+chmod -R 755 /var/www/laravel/releases/20150710133512/storage
+chmod -R g+s /var/www/laravel/releases/20150710133512/storage
+chown -R www-data:www-data /var/www/laravel/releases/20150710133512/storage
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/sessions/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/sessions’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/cache/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/cache’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/views/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/views’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/framework’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/app/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/app’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/logs/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage/logs’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/storage’: Operation not permitted
+$ cd /var/www/laravel/releases/20150710133512
+$ chmod -R 755 /var/www/laravel/releases/20150710133512/public
+$ chmod -R g+s /var/www/laravel/releases/20150710133512/public
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133512/public
+cd /var/www/laravel/releases/20150710133512
+chmod -R 755 /var/www/laravel/releases/20150710133512/public
+chmod -R g+s /var/www/laravel/releases/20150710133512/public
+chown -R www-data:www-data /var/www/laravel/releases/20150710133512/public
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/public/robots.txt’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/public/index.php’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/public/favicon.ico’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/public/.htaccess’: Operation not permitted
+chown: changing ownership of ‘/var/www/laravel/releases/20150710133512/public’: Operation not permitted
+$ cd /var/www/laravel/releases/20150710133512
+$ chmod -R 755 /var/www/laravel/releases/20150710133512/releases
+$ chmod -R g+s /var/www/laravel/releases/20150710133512/releases
+$ chown -R www-data:www-data /var/www/laravel/releases/20150710133512/releases
+cd /var/www/laravel/releases/20150710133512
+chmod -R 755 /var/www/laravel/releases/20150710133512/releases
+chmod -R g+s /var/www/laravel/releases/20150710133512/releases
+chown -R www-data:www-data /var/www/laravel/releases/20150710133512/releases
+chmod: cannot access ‘/var/www/laravel/releases/20150710133512/releases’: No such file or directory
+$ rm -rf /var/www/laravel/releases/20150710133512/storage/logs
+rm -rf /var/www/laravel/releases/20150710133512/storage/logs
 
-$ ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133306/storage/logs-temp
-$ mv -Tf /var/www/laravel/releases/20150710133306/storage/logs-temp /var/www/laravel/releases/20150710133306/storage/logs
-ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133306/storage/logs-temp
-mv -Tf /var/www/laravel/releases/20150710133306/storage/logs-temp /var/www/laravel/releases/20150710133306/storage/logs
+$ ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133512/storage/logs-temp
+$ mv -Tf /var/www/laravel/releases/20150710133512/storage/logs-temp /var/www/laravel/releases/20150710133512/storage/logs
+ln -s /var/www/laravel/shared/storage/logs /var/www/laravel/releases/20150710133512/storage/logs-temp
+mv -Tf /var/www/laravel/releases/20150710133512/storage/logs-temp /var/www/laravel/releases/20150710133512/storage/logs
 
-$ ln -s /var/www/laravel/releases/20150710133306 /var/www/laravel/current-temp
+$ ln -s /var/www/laravel/releases/20150710133512 /var/www/laravel/current-temp
 $ mv -Tf /var/www/laravel/current-temp /var/www/laravel/current
-ln -s /var/www/laravel/releases/20150710133306 /var/www/laravel/current-temp
+ln -s /var/www/laravel/releases/20150710133512 /var/www/laravel/current-temp
 mv -Tf /var/www/laravel/current-temp /var/www/laravel/current
 
-$ cd /var/www/laravel/releases/20150710133306
+$ cd /var/www/laravel/releases/20150710133512
 $ php artisan migrate:refresh --force
-cd /var/www/laravel/releases/20150710133306
+cd /var/www/laravel/releases/20150710133512
 php artisan migrate:refresh --force
-[PDOException]                                                                          
-  SQLSTATE[28000] [1045] Access denied for user 'forge'@'localhost' (using password: NO)
-$ rm -rf /var/www/laravel/releases/20150710131411
-rm -rf /var/www/laravel/releases/20150710131411
+[PDOException]                                                                         
+  SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+$ rm -rf /var/www/laravel/releases/20150710131625
+rm -rf /var/www/laravel/releases/20150710131625
 
 |=> Removing <info>1 release</info> from the server
