@@ -23,8 +23,8 @@ return [
 
     // Tasks to execute after the core Rocketeer Tasks
     'after'  => [
-        'setup'   => [],
-        'deploy'  => [],
+        'setup'   => ['chgrp -R www-data /var/www/laravel', 'chmod -R 775 storage'],
+        'deploy'  => ['php artisan migrate:refresh --force'],
         'cleanup' => [],
     ],
 

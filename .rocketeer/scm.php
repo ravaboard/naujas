@@ -30,6 +30,6 @@ return [
     'shallow'    => true,
 
     // Recursively pull in submodules. Works only with GIT.
-    'submodules' => true,
+    'submodules' => false,
 
 ];
