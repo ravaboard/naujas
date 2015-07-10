@@ -1,0 +1,83 @@
+ls: cannot access /home/www/laravel/releases: No such file or directory
+/usr/local/bin/composer
+$ git --version
+git --version
+git version 1.9.1
+git version 1.9.1
+/usr/bin/php
+/usr/bin/php
+/usr/bin/php
+$ /usr/bin/php -m
+/usr/bin/php -m
+[PHP Modules]
+bcmath
+bz2
+calendar
+Core
+ctype
+curl
+date
+dba
+dom
+ereg
+exif
+fileinfo
+filter
+ftp
+gd
+gettext
+hash
+iconv
+json
+libxml
+mbstring
+mcrypt
+mhash
+mongo
+mysql
+mysqli
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+Phar
+posix
+readline
+Reflection
+session
+shmop
+SimpleXML
+soap
+sockets
+SPL
+standard
+sysvmsg
+sysvsem
+sysvshm
+tokenizer
+wddx
+xhprof
+xml
+xmlreader
+xmlwriter
+Zend OPcache
+zip
+zlib
+[Zend Modules]
+Zend OPcache
+$ mkdir /home/www/laravel/
+mkdir /home/www/laravel/
+mkdir: cannot create directory ‘/home/www/laravel/’: No such file or directory
+$ mkdir -p /home/www/laravel/releases
+mkdir -p /home/www/laravel/releases
+mkdir: cannot create directory ‘/home/www’: Permission denied
+$ mkdir -p /home/www/laravel/current
+mkdir -p /home/www/laravel/current
+mkdir: cannot create directory ‘/home/www’: Permission denied
+$ mkdir -p /home/www/laravel/shared
+mkdir -p /home/www/laravel/shared
+mkdir: cannot create directory ‘/home/www’: Permission denied
+$ git clone "https://ravaboard:Gembird20@github.com/ravaboard/rock.git" "/home/www/laravel/releases/20150710113948" --branch="master" --depth="1"
+git clone "https://ravaboard:Gembird20@github.com/ravaboard/rock.git" "/home/www/laravel/releases/20150710113948" --branch="master" --depth="1"
+fatal: could not create leading directories of '/home/www/laravel/releases/20150710113948': Permission denied
