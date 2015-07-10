@@ -21,34 +21,12 @@ Route::get('/complete', function()
     return View::make('complete');
 });
 
-
-    Route::get('queueships', function() {
-    $ships = array(
-      array(
-        'name' => 'Galactica',
-        'show' => 'Battlestar Galactica'),
-        array(
-        'name' => 'Millennium Falcon',
-        'show' => 'Star Wars'),
-        array(
-        'name' => 'USS Prometheus',
-        'show' => 'Stargate SG-1')
-    );
-    $queue = Queue::push('Spaceship', array('ships' => $ships));
-      return 'Ships are queued.';
-    });
 	
 	Route::get('lord', function()
 {
 
-   Queue::push(function($job)
-{
-Log::info('Testing queues');
-
-$job->delete();
-
-});
-
+    $user = getenv('DB_USERNAME');
+    dd($user);
 });
 	
 
